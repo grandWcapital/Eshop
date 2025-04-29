@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Ensure this matches your layout
+}
+
+<h1 style="text-align:center;">Product List</h1>
+
+<table id="productTable" style="width: 80%; margin: 20px auto; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;">Image</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;">Name</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;">Description</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;">Price ($)</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;">Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Products will be inserted here -->
+    </tbody>
+</table>
+
+<script>
+    async function loadProducts() {
+        try {
+            const response = await fetch('https://localhost:7181/api/Product/all_products');
+            const products = await response.json();
+
+            const tableBody = document.getElementById('productTable').querySelector('tbody');
+            tableBody.innerHTML = ''; // Clear old data
+
+            products.forEach(product => {
+                const row = document.createElement('tr');
+
+                row.innerHTML = `
+                    <td><img src="${product.image}" alt="${product.name}" style="max-width: 100px; height: auto;"></td>
+                    <td>${product.name}</td>
+                    <td>${product.description}</td>
+                    <td>${product.price.toFixed(2)}</td>
+                    <td>${product.numberInStock}</td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error('Failed to load products:', error);
+        }
+    }
+
+    window.onload = loadProducts;
+</script>

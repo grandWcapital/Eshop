@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align: center;">Product List</h1>
+
+<div id="productContainer" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
+    <!-- Products will be inserted here -->
+</div>
+
+<script>
+    async function loadProducts() {
+        try {
+            const response = await fetch('https://localhost:7181/api/Product/all_products');
+            const products = await response.json();
+
+            const container = document.getElementById('productContainer');
+            container.innerHTML = ''; // Clear old data
+
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.style.width = '22%'; // Ensures 4 items per row with some spacing
+                productCard.style.marginBottom = '20px';
+                productCard.style.textAlign = 'center';
+                productCard.style.border = '1px solid #ddd';
+                productCard.style.borderRadius = '8px';
+                productCard.style.padding = '10px';
+                productCard.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+
+                productCard.innerHTML = `
+                    <img src="${product.image}" alt="${product.name}" style="width: 100%; height: auto; border-radius: 5px;">
+                    <h3 style="font-size: 16px; margin: 10px 0;">${product.name}</h3>
+                    <p style="font-size: 14px; color: #333;">${product.price.toFixed(2)} $</p>
+                `;
+
+                container.appendChild(productCard);
+            });
+        } catch (error) {
+            console.error('Failed to load products:', error);
+        }
+    }
+
+    window.onload = loadProducts;
+</script>

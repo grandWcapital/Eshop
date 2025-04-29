@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "EShop.Presentation.Areas.Api.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "Api/Product/all_products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
