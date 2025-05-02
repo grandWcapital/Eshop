@@ -1,0 +1,369 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Eshop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\areas\\api\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\areas\\api\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\infrastructure\\repositories\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\infrastructure\\repositories\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\domain\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\domain\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\domain\\interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\domain\\interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\views\\product\\productdescription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\views\\product\\productdescription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\modelviews\\productdatamodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\modelviews\\productdatamodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\eshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\eshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\eshop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\eshop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\modelviews\\createproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\modelviews\\createproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\modelviews\\categoryselectmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\modelviews\\categoryselectmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|c:\\users\\user\\desktop\\eshop\\eshop\\modelviews\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7F7161-AB7D-4110-B5C0-52348A1CED84}|EShop\\EShop.csproj|solutionrelative:eshop\\modelviews\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "EShop\\Domain\\Models\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Models\\ProductCategory.cs",
+              "RelativeToolTip": "EShop\\Domain\\Models\\ProductCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:55:24.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "EShop\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "EShop\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:31:51.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "EShop\\Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "EShop\\Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:47:08.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "EShop\\Domain\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "EShop\\Domain\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:34:10.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Infrastructure\\Repositories\\ProductCategoryRepository.cs",
+              "RelativeDocumentMoniker": "EShop\\Infrastructure\\Repositories\\ProductCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Infrastructure\\Repositories\\ProductCategoryRepository.cs",
+              "RelativeToolTip": "EShop\\Infrastructure\\Repositories\\ProductCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:31:54.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "EShop\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "EShop\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:32:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Areas\\Api\\ProductController.cs",
+              "RelativeDocumentMoniker": "EShop\\Areas\\Api\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Areas\\Api\\ProductController.cs",
+              "RelativeToolTip": "EShop\\Areas\\Api\\ProductController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwEIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:56:56.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Program.cs",
+              "RelativeDocumentMoniker": "EShop\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Program.cs",
+              "RelativeToolTip": "EShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:34:58.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "EShop\\Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "EShop\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:01:55.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "EShop\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "EShop\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA4wC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:14:31.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Interfaces\\IProductCategoryRepository.cs",
+              "RelativeDocumentMoniker": "EShop\\Domain\\Interfaces\\IProductCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Domain\\Interfaces\\IProductCategoryRepository.cs",
+              "RelativeToolTip": "EShop\\Domain\\Interfaces\\IProductCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:34:47.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDataModelView.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\ProductDataModelView.cs",
+              "RelativeDocumentMoniker": "EShop\\ModelViews\\ProductDataModelView.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\ProductDataModelView.cs",
+              "RelativeToolTip": "EShop\\ModelViews\\ProductDataModelView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:55:41.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Application\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "EShop\\Application\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Application\\Services\\IProductService.cs",
+              "RelativeToolTip": "EShop\\Application\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:42:47.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDescription.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Views\\Product\\ProductDescription.cshtml",
+              "RelativeDocumentMoniker": "EShop\\Views\\Product\\ProductDescription.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Views\\Product\\ProductDescription.cshtml",
+              "RelativeToolTip": "EShop\\Views\\Product\\ProductDescription.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:50:40.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:14:30.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "EShop\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "EShop\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T07:14:03.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EShop.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\EShop.csproj",
+              "RelativeDocumentMoniker": "EShop\\EShop.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\EShop.csproj",
+              "RelativeToolTip": "EShop\\EShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T07:46:32.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EShop",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\EShop.csproj",
+              "RelativeDocumentMoniker": "EShop\\EShop.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\EShop.csproj",
+              "RelativeToolTip": "EShop\\EShop.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T07:33:38.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\CreateProductViewModel.cs",
+              "RelativeDocumentMoniker": "EShop\\ModelViews\\CreateProductViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\CreateProductViewModel.cs",
+              "RelativeToolTip": "EShop\\ModelViews\\CreateProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:55:45.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategorySelectModelView.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\CategorySelectModelView.cs",
+              "RelativeDocumentMoniker": "EShop\\ModelViews\\CategorySelectModelView.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\CategorySelectModelView.cs",
+              "RelativeToolTip": "EShop\\ModelViews\\CategorySelectModelView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:56:03.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "EShop\\ModelViews\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Eshop\\EShop\\ModelViews\\ProductCreateDto.cs",
+              "RelativeToolTip": "EShop\\ModelViews\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:55:43.359Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

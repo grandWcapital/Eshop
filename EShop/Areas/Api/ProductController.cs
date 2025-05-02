@@ -32,7 +32,7 @@ namespace EShop.Presentation.Areas.Api
             return Ok(productDtos);
         }
 
-        [HttpPost("create")]
+        [HttpPost("create") ]
         public async Task<IActionResult> CreateProduct([FromBody] ProductCreateDto dto)
         {
             if (!ModelState.IsValid)
@@ -40,18 +40,14 @@ namespace EShop.Presentation.Areas.Api
 
             var viewModel = new CreateProductViewModel
             {
-                ProductData = new Product
-                {
+               
                     Name = dto.Name,
                     Description = dto.Description,
                     Price = dto.Price,
                     Image = dto.Image,
-                    numberInStock = dto.NumberInStock
-                },
-                CategorySelect = new CategorySelectModelViews
-                {
+                    NumberInStock = dto.NumberInStock,
                     CategoryIds = dto.CategoryIds
-                }
+                
             };
 
             var result = await _productService.AddProductAsync(viewModel);
@@ -60,6 +56,16 @@ namespace EShop.Presentation.Areas.Api
                 return Ok(new { message = "Product created successfully.", productId = result });
 
             return StatusCode(500, "Failed to create product.");
+        }
+
+        [HttpGet("get_product/{id}")]
+        public async Task<IActionResult> GetProduct(int id)
+        {
+            var product = await _productRepository.GetProductByIdAsync(id);
+            if (product == null)
+                return NotFound();
+            var productDto = _mapper.Map<ProductDto>(product);
+            return Ok(productDto);
         }
     }
 }

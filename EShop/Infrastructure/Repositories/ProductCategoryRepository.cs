@@ -12,7 +12,7 @@ namespace EShop.Infrastructure.Repositories
         {
             _context = context;
         }
-
+        
         public async Task<int> AddProductCategory(ProductCategory category)
         {
             _context.Add(category);

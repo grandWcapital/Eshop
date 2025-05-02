@@ -6,5 +6,6 @@ namespace EShop.Application.Services
     public interface IProductService
     {
         Task<int> AddProductAsync(CreateProductViewModel createProductViewModel);
+        
     }
 }

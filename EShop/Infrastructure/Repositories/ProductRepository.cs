@@ -41,5 +41,13 @@ namespace EShop.Infrastructure.Repositories
             _context.Products.Add(product);
             return await _context.SaveChangesAsync();
         }
+
+        public async Task<Product> GetProductByIdAsync(int id)
+        {
+            return await _context.Products.Include(p => p.ProductCategories)
+                .ThenInclude(pc => pc.Category)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+        }
     }
 }

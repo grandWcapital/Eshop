@@ -18,18 +18,18 @@ public class ProductService : IProductService
     {
         Product product = new Product
         {
-            Name = createProductViewModel.ProductData.Name,
-            Description = createProductViewModel.ProductData.Description,
-            Price = createProductViewModel.ProductData.Price,
-            Image = createProductViewModel.ProductData.Image,
-            numberInStock = createProductViewModel.ProductData.numberInStock
+            Name = createProductViewModel.Name,
+            Description = createProductViewModel.Description,
+            Price = createProductViewModel.Price,
+            Image = createProductViewModel.Image,
+            numberInStock = createProductViewModel.NumberInStock
         };
 
         
         await _productRepository.AddProductAsync(product);
 
         
-        foreach (var categoryId in createProductViewModel.CategorySelect.CategoryIds)
+        foreach (var categoryId in createProductViewModel.CategoryIds)
         {
             ProductCategory productCategory = new ProductCategory
             {
