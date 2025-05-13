@@ -3,16 +3,18 @@ using EShop.Domain.Interfaces;
 using EShop.Infrastructure.Repositories;
 using EShop.Interface.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.JsonPatch;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews()
-    .AddJsonOptions(options =>
+    .AddNewtonsoftJson(options =>
     {
-        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-        options.JsonSerializerOptions.WriteIndented = true; // optional, for readable JSON
+        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+        options.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
     });
+
 
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IProductService, ProductService>();

@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "EShop.Presentation.Areas.Api.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "Api/Product/delete_product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.Presentation.Areas.Api.ProductController",
     "Method": "GetProduct",
     "RelativePath": "Api/Product/get_product/{id}",
     "HttpMethod": "GET",
@@ -36,6 +52,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.Presentation.Areas.Api.ProductController",
+    "Method": "PartiallyUpdateProduct",
+    "RelativePath": "Api/Product/update_product/{productId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchProduct",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
         "IsRequired": true
       }
     ],

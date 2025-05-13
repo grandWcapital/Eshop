@@ -13,7 +13,7 @@ namespace EShop.Domain.Models
         public string Image { get; set; } 
 
         public int numberInStock { get; set; } = 0;
-        public IEnumerable<ProductCategory> ProductCategories { get; set; } 
+        public ICollection<ProductCategory> ProductCategories { get; set; } 
 
 
 

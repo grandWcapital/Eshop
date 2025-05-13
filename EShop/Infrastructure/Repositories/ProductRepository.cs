@@ -49,5 +49,15 @@ namespace EShop.Infrastructure.Repositories
                 .FirstOrDefaultAsync(p => p.Id == id);
 
         }
+        public async Task UpdateProductAsync(Product product)
+        {
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+        }
+        public async Task Delete(Product product)
+        {
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+        }
     }
 }

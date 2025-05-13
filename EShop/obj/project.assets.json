@@ -93,10 +93,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.5": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "8.0.5",
+          "Microsoft.AspNetCore.JsonPatch": "8.0.1",
           "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -1778,10 +1778,10 @@
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.5": {
-      "sha512": "3hi4eWTWLA1HGCNO20qBtrZM8P2xrqE0sVGofZHLGxDNh49ofQf4TNwm/nwY5ez0QqasUlMmRipXkJLOmSOBrA==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.1": {
+      "sha512": "YWNvdHGCHGWKILgEzUDe6soozYnknlSB3IY092zxjdgLoaCPRte2lnbRRS7Nt0lEFbsFjN/Eo2fCI5yusPK0iQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/8.0.5",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1789,7 +1789,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.8.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.8.0.1.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
@@ -4902,7 +4902,7 @@
     "net8.0": [
       "AutoMapper >= 14.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 9.0.4",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.5",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.1",
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
@@ -4970,7 +4970,7 @@
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
-            "version": "[8.0.5, )"
+            "version": "[8.0.1, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

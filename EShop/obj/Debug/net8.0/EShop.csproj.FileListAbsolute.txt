@@ -346,3 +346,6 @@ C:\Users\user\Desktop\Eshop\EShop\obj\Debug\net8.0\EShop.pdb
 C:\Users\user\Desktop\Eshop\EShop\obj\Debug\net8.0\EShop.genruntimeconfig.cache
 C:\Users\user\Desktop\Eshop\EShop\obj\Debug\net8.0\ref\EShop.dll
 C:\Users\user\Desktop\Eshop\EShop\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Eshop\EShop\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\Desktop\Eshop\EShop\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\user\Desktop\Eshop\EShop\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
